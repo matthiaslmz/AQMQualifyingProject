@@ -1,0 +1,14 @@
+P(A)=0.8 (Detectability of drone A)
+P(B)=0.9 (Detectability of drone B)
+P(A)′=0.2 (Probability person in distress NOT detected by drone A)
+P(B)′=0.1 (Probability person in distress NOT detected by drone B)
+P(L|A)=0.7 (Probability person in distress accurately located given that he/she is detected by drone A)
+P(L|B)=0.4 (Probability person in distress accurately located given that he/she is detected by drone B)
+P(A∩B)=0.8⋅0.9 (Probabilily person in distress detected by drone A and B)
+P(A∩B)′=0.2⋅0.1 (Probabilily person in distress NOT detected by drone A and B)
+P(L|A∩B)=1 (Probability person in distressed accurately located given that he/she detected by drone A and B)
+P(L|(A∩B)′)=0 (Probability person in distressed accurately located given that he/she is NOT detected by drone A and B)
+-----
+[P(A)⋅P(L|A)⋅P(B)′]+[P(B)⋅P(L|B)⋅P(A)′]+[P(A∩B)⋅P(L|(A∩B)]+[P(A∩B)′⋅P(L|(A∩B′))]
+
+(0.8⋅0.7⋅0.1)+(0.9⋅0.4⋅0.2)+(0.8⋅0.9⋅1)+(0.2⋅0.1⋅0)=0.848≡84.8%
